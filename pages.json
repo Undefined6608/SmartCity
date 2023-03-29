@@ -1,0 +1,395 @@
+{
+	"pages": [
+		// tabBar要求第一个页面为首页
+		{
+		"path": "pages/Home/Home",
+		"style": {
+			"navigationBarTitleText": "智慧城市",
+			"navigationBarBackgroundColor": "#ededed",
+			"navigationBarTextStyle": "black"
+		}
+	},
+	{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "智慧城市",
+			"navigationStyle": "custom"
+		}
+	},
+	{
+            "path" : "pages/Login/Login",
+            "style" :{
+                "navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/AllServer/AllServer",
+            "style" :{
+                "navigationBarTitleText": "全部服务",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/HuanBao/HuanBao",
+            "style" :{
+                "navigationBarTitleText": "智慧环保",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/News/News",
+            "style" :{
+                "navigationBarTitleText": "新闻",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/PrivateCenter/PrivateCenter",
+            "style" :{
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/TuiJian/TuiJianStop",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停车场查询",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#3d4ef4",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/TuiJian/TuiJianDiTie",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "地铁查询",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+        }
+		,{
+		    "path" : "pages/TuiJian/TuiJianBus",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "定制班车",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+		    }
+		}
+		,{
+		    "path" : "pages/TuiJian/TuiJianHos",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "门诊预约",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+		    }
+		}
+		,{
+		    "path" : "pages/TuiJian/TuiJianJiaoguan",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "违章首页",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+		    }
+		}
+        ,{
+            "path" : "pages/NewsPaper/NewsPaper",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "default",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/InnerPage/StopInnerPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停车场详情",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#3d4ef4",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/InnerPage/DiTieInner",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "线路详情",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/TuiJian/ParkingRecord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停车记录",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/InnerPage/living_expenses",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "生活缴费",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/InnerPage/PressComments",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "全部评论",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/MinePage/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人设置",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/MinePage/goods",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的订单",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        },
+		{
+			"path": "pages/MinePage/revise",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/MinePage/putIdea",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+			}
+		}
+        ,{
+            "path" : "pages/InnerPage/busMessage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "巴士详情",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Bus/Buschengche",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "乘车信息",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Bus/BusGoods",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "确认订单",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/MinePage/js",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单支付",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        },
+		{
+			"path": "pages/HosPage/HosPage",
+			"style": {
+				"navigationBarTitleText": "医院详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+			}
+		}
+        ,{
+            "path" : "pages/HosCard/HosCard",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "就诊人卡片",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/AddHosCard/AddHosCard",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增就诊人",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/appointment/appointment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约挂号",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/SettingHosCard/SettingHosCard",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑就诊人信息",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/appointment_true/appointment_true",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约确认单",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/AppointmentHistory/AppointmentHistory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约历史",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"backgroundColor": "#f7f7f7",
+		"color": "#6f6f6f",
+		"fontSize": "12px",
+		"iconWidth": "30px",
+		"height": "62px",
+		"selectedColor": "#2929ff",
+		"list": [
+			{
+				"pagePath": "pages/Home/Home",
+				"iconPath": "static/icons/home.png",
+				"selectedIconPath": "static/icons/home_act.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/AllServer/AllServer",
+				"iconPath": "static/icons/all.png",
+				"selectedIconPath": "static/icons/all_act.png",
+				"text": "全部服务"
+			},
+			{
+				"pagePath": "pages/HuanBao/HuanBao",
+				"iconPath": "static/icons/hb1.png",
+				"selectedIconPath": "static/icons/hb2.png",
+				"text": "智慧环保"
+			},
+			{
+				"pagePath": "pages/News/News",
+				"iconPath": "static/icons/news.png",
+				"selectedIconPath": "static/icons/news_act.png",
+				"text": "新闻"
+			},
+			{
+				"pagePath": "pages/PrivateCenter/PrivateCenter",
+				"iconPath": "static/icons/user.png",
+				"selectedIconPath": "static/icons/user_act.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}
